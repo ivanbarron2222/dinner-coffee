@@ -17,9 +17,13 @@ WORKDIR /var/www/html
 # 👇 THIS IS THE IMPORTANT FIX
 COPY . .
 
+# Ensure required dirs exist + are writable BEFORE artisan runs
+RUN mkdir -p storage bootstrap/cache \
+ && chown -R www-data:www-data storage bootstrap/cache \
+ && chmod -R 775 storage bootstrap/cache
+
 RUN composer install --no-dev --prefer-dist --no-interaction --no-progress --optimize-autoloader
 
-RUN chown -R www-data:www-data storage bootstrap/cache
 
 EXPOSE 10000
 
