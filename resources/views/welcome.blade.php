@@ -87,14 +87,14 @@
                         <div class="w-full max-w-[320px] rounded-2xl border border-[#ead9fb] bg-white/70 p-3">
                             <p class="text-xs uppercase tracking-[0.25em] text-[#7b3db3]">5:00 PM - 5:15 PM</p>
                             <p class="mt-2 font-semibold">Pick-up</p>
-                            <p class="mt-1 text-xs text-[#6a5477]">End of your shift. Travel to her house. Arrival
+                            <p class="mt-1 text-xs text-[#6a5477]">End of my shift. Travel to your house. Arrival
                                 around
                                 5:15 PM.</p>
                         </div>
                         <div class="w-full max-w-[320px] rounded-2xl border border-[#ead9fb] bg-white/70 p-3">
                             <p class="text-xs uppercase tracking-[0.25em] text-[#7b3db3]">5:15 PM - 5:35 PM</p>
                             <p class="mt-2 font-semibold">Travel to Dinner</p>
-                            <p class="mt-1 text-xs text-[#6a5477]">From her house to Yang Chow Bacao. Estimated 15-20
+                            <p class="mt-1 text-xs text-[#6a5477]">From your house to Yang Chow Bacao. Estimated 15-20
                                 minutes.</p>
                         </div>
                         <div class="w-full max-w-[320px] rounded-2xl border border-[#ead9fb] bg-white/70 p-3">
