@@ -3,9 +3,14 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
+use Illuminate\Support\ServiceProvider;
+
+$providers = ServiceProvider::defaultProviders()->merge([
+    App\Providers\AppServiceProvider::class,
+])->toArray();
 
 return Application::configure(basePath: dirname(__DIR__))
-    ->withProviders(require __DIR__.'/providers.php')
+    ->withProviders($providers)
     ->withRouting(
         web: __DIR__.'/../routes/web.php',
         commands: __DIR__.'/../routes/console.php',
