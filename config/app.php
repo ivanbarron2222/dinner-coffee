@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\ServiceProvider;
+
 return [
 
     /*
@@ -13,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('Dinner&Coffee', 'Laravel'),
+    'name' => env('APP_NAME', 'Laravel'),
 
     /*
     |--------------------------------------------------------------------------
@@ -104,6 +106,21 @@ return [
             explode(',', (string) env('APP_PREVIOUS_KEYS', ''))
         ),
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Autoloaded Service Providers
+    |--------------------------------------------------------------------------
+    | 
+    | The service providers listed here will be automatically loaded on the
+    | request to your application. Feel free to add your own services to
+    | this array to grant expanded functionality to your applications.
+    |
+    */
+
+    'providers' => ServiceProvider::defaultProviders()->merge([
+        App\Providers\AppServiceProvider::class,
+    ])->toArray(),
 
     /*
     |--------------------------------------------------------------------------
