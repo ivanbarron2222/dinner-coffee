@@ -16,23 +16,23 @@
 </head>
 
 <body
-    class="min-h-screen overflow-auto bg-gradient-to-br from-[#fbf5ff] via-[#f3e9ff] to-[#efe1ff] text-[#24132e] lg:h-screen lg:overflow-hidden">
-    <div class="mx-auto flex min-h-screen max-w-6xl flex-col gap-4 px-5 py-5 lg:h-full lg:px-7">
+    class="min-h-screen bg-gradient-to-br from-[#fbf5ff] via-[#f3e9ff] to-[#efe1ff] text-[#24132e]">
+    <div class="mx-auto flex min-h-screen max-w-6xl flex-col gap-4 px-5 py-5 lg:px-7">
         <header class="flex flex-wrap items-center justify-between gap-4">
             <div>
                 <p class="text-sm uppercase tracking-[0.3em] text-[#7b3db3]">February 14, 2026</p>
             </div>
         </header>
 
-        <main class="grid gap-4 lg:grid-cols-[0.78fr_1.22fr]">
+        <main class="grid gap-4 lg:grid-cols-[0.78fr_1.22fr] lg:items-start">
             <aside class="flex flex-col gap-4">
                 <div class="rounded-3xl border border-[#ead9fb] bg-white/70 p-5 shadow-lg shadow-purple-100">
                     <p class="text-sm uppercase tracking-[0.25em] text-[#7b3db3]">Note</p>
-                    <p class="mt-3 text-xs text-justify leading-relaxed text-[#6a5477]">
+                    <p class="mt-3 text-xs leading-relaxed text-[#6a5477]">
                         I was wondering if you might be free on February 14, 2026.
-                        If you are, and if it’s okay with you, I’d love to take you on a simple date that day.
-                        We’ll have dinner and get some coffee afterward.
-                        Since it’s a Saturday, I can pick you up after my shift ends at 5:00 PM.
+                        If you are, and if it's okay with you, I'd love to take you on a simple date that day.
+                        We'll have dinner and get some coffee afterward.
+                        Since it's a Saturday, I can pick you up after my shift ends at 5:00 PM.
                     </p>
                 </div>
                 <div class="rounded-3xl border border-[#ead9fb] bg-white/70 p-3 shadow-lg shadow-purple-100">
@@ -83,7 +83,7 @@
                         <p><span class="font-semibold text-[#4b2a63]">Dress Code:</span> Smart casual</p>
                     </div>
 
-                    <div class="mt-4 grid gap-3 sm:grid-cols-2 justify-items-center">
+                    <div class="mt-4 grid gap-3 sm:grid-cols-2">
                         <div class="w-full max-w-[320px] rounded-2xl border border-[#ead9fb] bg-white/70 p-3">
                             <p class="text-xs uppercase tracking-[0.25em] text-[#7b3db3]">5:00 PM - 5:15 PM</p>
                             <p class="mt-2 font-semibold">Pick-up</p>
@@ -134,10 +134,9 @@
                                 class="h-full w-full object-cover" />
                         </div>
                     </div>
+                </section>
             </div>
-            </section>
-    </div>
-    </main>
+        </main>
     </div>
     <script>
         const noButton = document.getElementById('rsvp-no');
