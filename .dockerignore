@@ -1,0 +1,14 @@
+.env
+.git
+.gitignore
+.qodo
+node_modules
+npm-debug.log
+yarn-error.log
+storage/logs
+storage/framework/cache
+storage/framework/sessions
+storage/framework/views
+tests
+vendor
+bootstrap/cache
